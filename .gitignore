@@ -1,0 +1,38 @@
+echo "# Entornos virtuales
+venv/
+env/
+ENV/
+.venv/
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Archivos de distribución
+dist/
+build/
+*.egg-info/
+
+# Archivos de configuración local
+.env
+.env.local
+
+# Base de datos vectorial (opcional)
+vector_db/
+
+# Archivos de sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Archivos de logs
+*.log" > .gitignore
+
+dataset/
